@@ -11,7 +11,7 @@ const CountdownTimer = ({
   url,
   buttonText,
   spaceBottomClass,
-  containerType
+  containerType,
 }) => {
   return (
     <div
@@ -43,7 +43,7 @@ const CountdownTimer = ({
                       />
                     </div>
                     <Link href={url} as={process.env.PUBLIC_URL + url}>
-                      <a className="lezada-button lezada-button--medium lezada-button--icon--left">
+                      <a className="suhas-button suhas-button--medium suhas-button--icon--left">
                         <IoIosCart /> {buttonText}
                       </a>
                     </Link>

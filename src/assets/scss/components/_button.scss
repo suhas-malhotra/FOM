@@ -1,11 +1,10 @@
-
 /*=============================================
 =            button            =
 =============================================*/
 
 /*----------  default style  ----------*/
 
-.lezada-button {
+.suhas-button {
   font-weight: 500;
 
   display: inline-block;
@@ -23,8 +22,6 @@
     background-color: transparent;
   }
 
-
-
   /*----------  small button style  ----------*/
 
   &--small {
@@ -36,7 +33,6 @@
       padding: 7px 15px;
     }
   }
-
 
   /*----------  medium button style  ----------*/
 
@@ -61,7 +57,6 @@
 
     padding: 25px 35px;
   }
-
 
   /*----------  icon left style  ----------*/
 
@@ -90,10 +85,9 @@
   }
 }
 
+/*----------  suhas button 2  ----------*/
 
-/*----------  lezada button 2  ----------*/
-
-.lezada-button-2 {
+.suhas-button-2 {
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
@@ -136,7 +130,6 @@
     opacity: 0;
   }
 
-
   &:hover {
     color: $red--one;
 
@@ -153,10 +146,9 @@
   }
 }
 
-
 /*----------  load more button  ----------*/
 
-.lezada-loadmore-button {
+.suhas-loadmore-button {
   font-weight: 500;
 
   letter-spacing: 1px;
@@ -178,11 +170,9 @@
   }
 }
 
-
-
 /*----------  shopping more button  ----------*/
 
-.lezada-shopping-more-button {
+.suhas-shopping-more-button {
   font-size: 14px;
   font-weight: 500;
   line-height: 18px;
@@ -201,4 +191,3 @@
 }
 
 /*=====  End of button  ======*/
-

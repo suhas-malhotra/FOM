@@ -27,7 +27,7 @@ const CategoryGrid = ({ spaceBottomClass }) => {
                   />
                   <span className="banner-content banner-content--product-type">
                     <span className="name">Tumbler Alarm Clock</span>
-                    <span className="price">$19.00</span>
+                    <span className="price">Rs19.00</span>
                   </span>
                 </a>
               </Link>
@@ -52,7 +52,7 @@ const CategoryGrid = ({ spaceBottomClass }) => {
                     <span className="name">
                       Prismatic <span>Table</span>
                     </span>
-                    <span className="lezada-button-link">SHOP NOW</span>
+                    <span className="suhas-button-link">SHOP NOW</span>
                   </span>
                 </a>
               </Link>
@@ -77,7 +77,7 @@ const CategoryGrid = ({ spaceBottomClass }) => {
                     <span className="name">
                       Wooden <span>birds decor</span>{" "}
                     </span>
-                    <span className="lezada-button-link">SHOP NOW</span>
+                    <span className="suhas-button-link">SHOP NOW</span>
                   </span>
                 </a>
               </Link>
@@ -100,7 +100,7 @@ const CategoryGrid = ({ spaceBottomClass }) => {
                   />
                   <span className="banner-content banner-content--product-type">
                     <span className="name">Rocking chair</span>
-                    <span className="price">$19.00</span>
+                    <span className="price">RS19.00</span>
                   </span>
                 </a>
               </Link>

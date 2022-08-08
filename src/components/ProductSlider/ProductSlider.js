@@ -15,29 +15,29 @@ const ProductSlider = ({ products }) => {
     // },
     pagination: {
       el: ".swiper-pagination",
-      clickable: true
+      clickable: true,
     },
     breakpoints: {
       1024: {
-        slidesPerView: 5
+        slidesPerView: 5,
       },
       768: {
-        slidesPerView: 3
+        slidesPerView: 3,
       },
       640: {
-        slidesPerView: 2
+        slidesPerView: 2,
       },
       320: {
-        slidesPerView: 1
-      }
-    }
+        slidesPerView: 1,
+      },
+    },
   };
   return (
     <div className="product-slider-wrapper space-mb--r100">
       <Container>
         <SectionTitle
           title="Popular this week"
-          subtitle="LEZADA STORE - SIMPLY AND BASIC"
+          subtitle="suhas STORE - SIMPLY AND BASIC"
         />
       </Container>
       <div className="product-slider-container product-slider-container--style2">

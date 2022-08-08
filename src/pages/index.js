@@ -51,9 +51,9 @@ const Home = ({ products }) => {
       <CountdownTimer
         title="Deal of the day"
         image="/assets/images/countdown/countdown-3.jpg"
-        dateTime="July 07, 2020 12:12:00"
+        dateTime="August 08, 2022 12:12:00"
         url="/shop/left-sidebar"
-        buttonText="Only $39"
+        buttonText="Only Rs .39"
         spaceBottomClass="space-mb--r100"
         containerType="normal"
       />

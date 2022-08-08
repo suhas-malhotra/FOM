@@ -19,7 +19,7 @@ const ProductModal = (props) => {
     deletefromwishlist,
     addtocompare,
     deletefromcompare,
-    addtoast
+    addtoast,
   } = props;
 
   const [selectedProductColor, setSelectedProductColor] = useState(
@@ -43,8 +43,8 @@ const ProductModal = (props) => {
   const gallerySwiperParams = {
     pagination: {
       el: ".swiper-pagination",
-      clickable: true
-    }
+      clickable: true,
+    },
   };
 
   return (
@@ -85,12 +85,12 @@ const ProductModal = (props) => {
                   {product.discount > 0 ? (
                     <Fragment>
                       <span className="main-price discounted">
-                        ${productprice}
+                        Rs{productprice}
                       </span>
-                      <span className="main-price">${discountedprice}</span>
+                      <span className="main-price">Rs.{discountedprice}</span>
                     </Fragment>
                   ) : (
-                    <span className="main-price">${productprice} </span>
+                    <span className="main-price">Rs.{productprice} </span>
                   )}
                 </div>
                 {product.rating && product.rating > 0 ? (
@@ -190,7 +190,7 @@ const ProductModal = (props) => {
                         href={product.affiliateLink}
                         rel="noopener noreferrer"
                         target="_blank"
-                        className="lezada-button lezada-button--medium"
+                        className="suhas-button suhas-button--medium"
                       >
                         Buy Now
                       </a>
@@ -247,13 +247,13 @@ const ProductModal = (props) => {
                             )
                           }
                           disabled={productCartQty >= productStock}
-                          className="lezada-button lezada-button--medium product-quickview__cart space-mr--10"
+                          className="suhas-button suhas-button--medium product-quickview__cart space-mr--10"
                         >
                           Add To Cart
                         </button>
                       ) : (
                         <button
-                          className="lezada-button lezada-button--medium product-quickview__ofs space-mr--10"
+                          className="suhas-button suhas-button--medium product-quickview__ofs space-mr--10"
                           disabled
                         >
                           Out of Stock

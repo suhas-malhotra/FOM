@@ -65,7 +65,7 @@ const HeroSlider = ({ sliderData }) => {
                               href={single.url}
                               as={process.env.PUBLIC_URL + single.url}
                             >
-                              <a className="lezada-button lezada-button--medium">
+                              <a className="suhas-button suhas-button--medium">
                                 shop now
                               </a>
                             </Link>

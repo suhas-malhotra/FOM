@@ -1,10 +1,6 @@
-
 /*=============================================
 =            countdown timer            =
 =============================================*/
-
-
-
 
 .countdown-wrapper {
   h3 {
@@ -16,19 +12,19 @@
 
     color: $black--two;
 
-@include respond(small-mobile) {
+    @include respond(small-mobile) {
       font-size: 38px;
       line-height: 48px;
     }
 
-@include respond(extra-small-mobile) {
+    @include respond(extra-small-mobile) {
       font-size: 28px;
       line-height: 38px;
     }
   }
 
   &--style2 {
-    a.lezada-button {
+    a.suhas-button {
       &:hover {
         color: $white !important;
         border-color: $white;
@@ -36,9 +32,8 @@
     }
   }
 
-
   &--white-bg {
-    a.lezada-button {
+    a.suhas-button {
       &:hover {
         color: $black !important;
         border-color: $black;
@@ -59,11 +54,11 @@
     margin-right: 100px;
     margin-bottom: 40px;
 
-@include respond(large-mobile) {
+    @include respond(large-mobile) {
       margin-right: 50px;
     }
 
-@include respond(extra-small-mobile) {
+    @include respond(extra-small-mobile) {
       margin-right: 15px;
     }
 
@@ -89,12 +84,12 @@
 
       color: $grey;
 
-@include respond(large-mobile) {
+      @include respond(large-mobile) {
         font-size: 48px;
         line-height: 48px;
       }
 
-@include respond(extra-small-mobile) {
+      @include respond(extra-small-mobile) {
         font-size: 32px;
         line-height: 22px;
       }
@@ -108,11 +103,11 @@
 
         content: ":";
 
-@include respond(large-mobile) {
+        @include respond(large-mobile) {
           left: 150%;
         }
 
-@include respond(extra-small-mobile) {
+        @include respond(extra-small-mobile) {
           left: 120%;
         }
       }
@@ -130,6 +125,4 @@
   }
 }
 
-
 /*=====  End of countdown timer  ======*/
-

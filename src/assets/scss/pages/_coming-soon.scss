@@ -1,9 +1,6 @@
-
 /*=============================================
 =            coming soon            =
 =============================================*/
-
-
 
 .countdown-wrapper {
   h3 {
@@ -15,19 +12,19 @@
 
     color: $black--two;
 
-@include respond(small-mobile) {
+    @include respond(small-mobile) {
       font-size: 38px;
       line-height: 48px;
     }
 
-@include respond(extra-small-mobile) {
+    @include respond(extra-small-mobile) {
       font-size: 28px;
       line-height: 38px;
     }
   }
 
   &--style2 {
-    a.lezada-button {
+    a.suhas-button {
       &:hover {
         color: $white !important;
         border-color: $white;
@@ -35,9 +32,8 @@
     }
   }
 
-
   &--white-bg {
-    a.lezada-button {
+    a.suhas-button {
       &:hover {
         color: $black !important;
         border-color: $black;
@@ -58,11 +54,11 @@
     margin-right: 100px;
     margin-bottom: 40px;
 
-@include respond(large-mobile) {
+    @include respond(large-mobile) {
       margin-right: 50px;
     }
 
-@include respond(extra-small-mobile) {
+    @include respond(extra-small-mobile) {
       margin-right: 15px;
     }
 
@@ -88,12 +84,12 @@
 
       color: $grey;
 
-@include respond(large-mobile) {
+      @include respond(large-mobile) {
         font-size: 48px;
         line-height: 48px;
       }
 
-@include respond(extra-small-mobile) {
+      @include respond(extra-small-mobile) {
         font-size: 32px;
         line-height: 22px;
       }
@@ -107,11 +103,11 @@
 
         content: ":";
 
-@include respond(large-mobile) {
+        @include respond(large-mobile) {
           left: 150%;
         }
 
-@include respond(xtra-small-mobile) {
+        @include respond(xtra-small-mobile) {
           left: 120%;
         }
       }
@@ -129,7 +125,6 @@
   }
 }
 
-
 .coming-soon-content {
   display: flex;
   flex-direction: column;
@@ -144,7 +139,7 @@
 
   color: $grey;
 
-@include respond(extra-small-mobile) {
+  @include respond(extra-small-mobile) {
     font-size: 18px;
     line-height: 26px;
   }
@@ -156,32 +151,32 @@
 
   color: $black--two;
 
-@include respond(large-desktop) {
+  @include respond(large-desktop) {
     font-size: 62px;
     line-height: 76px;
   }
 
-@include respond(small-desktop) {
+  @include respond(small-desktop) {
     font-size: 56px;
     line-height: 66px;
   }
 
-@include respond(extra-large-mobile) {
+  @include respond(extra-large-mobile) {
     font-size: 58px;
     line-height: 66px;
   }
 
-@include respond(large-mobile) {
+  @include respond(large-mobile) {
     font-size: 48px;
     line-height: 56px;
   }
 
-@include respond(small-mobile) {
+  @include respond(small-mobile) {
     font-size: 42px;
     line-height: 56px;
   }
 
-@include respond(extra-small-mobile) {
+  @include respond(extra-small-mobile) {
     font-size: 32px;
     line-height: 46px;
   }
@@ -190,7 +185,7 @@
 .coming-soon-subscribe-form {
   width: 80%;
 
-@include respond(small-mobile) {
+  @include respond(small-mobile) {
     width: 100%;
   }
 
@@ -216,7 +211,7 @@
   ::placeholder {
     opacity: 1; /* Firefox */
 
-/* Chrome, Firefox, Opera, Safari 10.1+ */
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: $grey--seven;
   }
 
@@ -250,7 +245,6 @@
   }
 }
 
-
 .coming-soon-deal-countdown {
   .single-countdown__time::after {
     @include respond(extra-small-mobile) {
@@ -260,4 +254,3 @@
 }
 
 /*=====  End of coming soon  ======*/
-

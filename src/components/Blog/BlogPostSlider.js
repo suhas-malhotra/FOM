@@ -63,7 +63,7 @@ const BlogPostSlider = ({ blogData, spaceBottomClass }) => {
                 href="/blog/standard-left-sidebar"
                 as={process.env.PUBLIC_URL + "/blog/standard-left-sidebar"}
               >
-                <a className="lezada-button lezada-button--medium">view all</a>
+                <a className="suhas-button suhas-button--medium">view all</a>
               </Link>
             </div>
           </Col>

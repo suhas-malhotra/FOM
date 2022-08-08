@@ -20,7 +20,7 @@ const ProductGrid = ({
   deleteFromCompare,
   addToast,
   cartItems,
-  sliderClass
+  sliderClass,
 }) => {
   const [modalShow, setModalShow] = useState(false);
 
@@ -188,11 +188,13 @@ const ProductGrid = ({
             <div className="price">
               {product.discount > 0 ? (
                 <Fragment>
-                  <span className="main-price discounted">${productPrice}</span>
-                  <span className="discounted-price">${discountedPrice}</span>
+                  <span className="main-price discounted">
+                    Rs.{productPrice}
+                  </span>
+                  <span className="discounted-price">Rs.{discountedPrice}</span>
                 </Fragment>
               ) : (
-                <span className="main-price">${productPrice}</span>
+                <span className="main-price">Rs.{productPrice}</span>
               )}
             </div>
           </div>
